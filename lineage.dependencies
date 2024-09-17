@@ -1,0 +1,14 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "LineageOS/android_hardware_mediatek",
+    "target_path": "hardware/mediatek",
+    "branch":      "lineage-17.1"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "momo54181/android_vendor_oppo_PACM00",
+    "target_path": "vendor/oppo/PACM00"
+    "branch"     : "lineage-17.1"
+  }
+]
