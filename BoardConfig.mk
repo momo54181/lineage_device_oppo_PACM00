@@ -93,5 +93,8 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 # VNDK
 BOARD_VNDK_VERSION := current
 
+# SAR
+TARGET_USES_SYSTEM_AS_ROOT := true
+
 # Inherit the proprietary files
 include vendor/oppo/PACM00/BoardConfigVendor.mk
